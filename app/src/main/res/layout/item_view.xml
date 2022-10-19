@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#94CDF8"
+    app:cardCornerRadius="12dp"
+    app:cardMaxElevation="3dp"
+    app:contentPadding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageview_itemview_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_itemview_title"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/imageview_itemview_avatar"
+            app:layout_constraintTop_toTopOf="@id/imageview_itemview_avatar" />
+
+        <TextView
+            android:id="@+id/textview_itemview_details"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@id/textview_itemview_title"
+            app:layout_constraintTop_toBottomOf="@id/textview_itemview_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

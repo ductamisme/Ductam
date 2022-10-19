@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_login2">
+    <fragment
+        android:id="@+id/fragment_login2"
+        android:name="com.example.managerokr.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login2_to_fragmen_sighup"
+            app:destination="@id/fragmen_sighup" />
+        <action
+            android:id="@+id/action_fragment_login2_to_secondActivity"
+            app:destination="@id/secondActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmen_sighup"
+        android:name="com.example.managerokr.SignUpFragment"
+        android:label="fragment_fragmen_sighup"
+        tools:layout="@layout/fragment_sighup" >
+        <action
+            android:id="@+id/action_fragmen_sighup_to_secondActivity"
+            app:destination="@id/secondActivity" />
+        <action
+            android:id="@+id/action_fragmen_sighup_to_fragment_login2"
+            app:destination="@id/fragment_login2" />
+    </fragment>
+    <activity
+        android:id="@+id/secondActivity"
+        android:name="com.example.list.RecyclerActivity"
+        android:label="SecondActivity" />
+</navigation>

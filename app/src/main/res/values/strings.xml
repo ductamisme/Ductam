@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OKR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">sign_in</string>
+    <string name="enter_your_email">enter_your_email</string>
+    <string name="enter_your_name_business">enter_your_name_business</string>
+    <string name="okr_manager">OKR MANAGER</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="enter_your_password_again">enter_your_password_again</string>
+    <string name="enter_your_user_name">enter your user name</string>
+    <string name="okr_manager_login">OKR MANAGER</string>
+    <string name="are_you_have_okr_acount">Are you have okr acount</string>
+    <string name="sign_up_here">sign up here</string>
+    <string name="log_in">log in</string>
+    <string name="thank_you_to_believe_my_app_your_believe_are_my_motivition">thank you to believe my app your believe are my motivition</string>
+    <string name="enter_password">enter password</string>
+    <string name="enter_user_name">enter user name</string>
+    <string name="sign_uo">sign up</string>
+</resources>
